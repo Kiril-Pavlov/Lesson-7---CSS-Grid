@@ -1,0 +1,62 @@
+body{
+    background-color: aqua;
+}
+
+nav{
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(5,1fr);
+    
+}
+
+nav a{
+    background-color: azure;
+    text-align: center;
+    text-decoration: none;
+}
+
+header{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+
+header div{
+    border:1px solid black;
+}
+
+.doznaj-poveke{
+background-image: url('background.jpg');
+}
+
+.doznaj-poveke a:hover{
+    color: red;
+}
+
+main{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 20px;
+}
+
+main div{
+    border: 1px solid black;
+}
+
+.levo p{
+    text-align: center;
+}
+.desno p{
+    text-align: justify;
+}
+
+.desno{
+    background-color: brown;
+}
+.bonus-kopce{
+    position: relative;
+    top: -100px;
+    left: 50%;
+}
